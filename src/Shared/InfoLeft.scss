@@ -1,0 +1,38 @@
+.info-left-wrapper {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.info-left {
+    display: flex;
+    flex-direction: row;
+
+    &__square {
+        background-color: #2f80ed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__title {
+        color: white;
+        font-size: 3.5rem;
+        font-weight: 100;
+        margin-bottom: 45px;
+    }
+
+    &__list {
+        list-style-type: none;
+        padding-left: 90px;
+
+        &__item {
+            color: white;
+            font-weight: 100;
+            margin-left: 15px;
+            font-size: 1.25rem;
+            margin-bottom: 10px;
+        }
+    }
+}
